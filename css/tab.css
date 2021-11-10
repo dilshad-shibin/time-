@@ -1,0 +1,133 @@
+
+/*detail-tab*/
+.product-tab{
+		width:100%;
+		float:left;
+}
+.product-tab ul.nav-tabs{
+		width:100%;
+		float:left;
+		text-align:center
+}
+.product-tab ul.nav-tabs li{
+		display:inline-block;
+		float:none
+}
+.product-tab ul.nav-tabs li a{
+		font-size:16px;
+		color:#333;
+        text-transform:uppercase;
+	    padding:15px 30px 15px 30px;
+
+		transition:all .3s;
+		margin:0;
+		display:block !important;
+}
+		
+.product-tab .tab-content{
+		width:100%;
+		float:left;
+		
+}
+.product-tab  .tab-pane{
+		padding:20px 0 0 0;
+}
+.detail-page .tab-pane p{
+		font-size:16px;
+		font-weight:400;
+		line-height:1.6;
+		color:#868686;
+		margin-bottom:15px;
+}
+.detail-page .tab-pane p b{
+		font-weight:700;
+		color:#232f3e;		
+}
+.detail-page .tranding{
+		padding:0;
+}
+.slider-head h3{
+		position:relative;
+		padding-bottom:12px;
+		margin-top:0;
+		font-size:30px;
+		font-weight:400;
+		border-bottom:1px solid #f2f2f2;
+}
+.slider-head h3:after {
+    content: "";
+    height: 4px;
+    width: 160px;
+    background-color: #ff3c20;
+    display: block;
+    position: absolute;
+    bottom:-2px
+}
+.detail-page .owl-carousel .owl-item img{
+		width:auto;
+}
+.detail-page .sale-body p{
+		min-height:50px;
+		color:#5d5d5d;
+		font-weight:600;
+		margin-bottom:5px;
+}
+.detail-page .tranding .owl-prev,.detail-page .tranding .owl-next{
+	background-color:transparent;	
+}
+.detail-page .tranding .owl-prev .fa,.detail-page .tranding .owl-next .fa{
+	font-size:66px;
+	color:rgba(0,0,0,.3) !important;	
+}
+.detail-page .tranding .owl-prev:hover,.detail-page .tranding .owl-next:hover{
+	background-color:transparent;	
+}
+.detail-page .sale h4{
+	margin-top:0;
+	padding-left:0;
+}
+.detail-page .container.padd-80{
+		padding-bottom:0;
+}
+.product-wrapper{
+  position: relative;
+}
+.image-zoom {
+  position : absolute;
+  left : 0;
+  top : 0;
+  bottom : 0;
+  right : 0;
+  opacity : 0.9;
+  display : none;
+  overflow : hidden;
+  cursor:move;
+}
+.image-zoom img {
+
+    position : absolute;
+    top : 0;
+    left : 0;
+}
+
+
+
+.product-tab .nav-tabs li.active a,
+.product-tab .nav-tabs li a:hover {
+	color:#fff; background:#e2000c
+}
+
+.product-tab .nav-tabs {
+	border:0
+}
+
+.product-tab .nav-tabs li a{
+	background:#e8e8e8
+}
+
+
+
+
+
+
+
